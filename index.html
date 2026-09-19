@@ -1,21 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Ragul | Portfolio</title>
+    <title>Ragul | Developer Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+<!-- Background -->
+<div class="glow glow1"></div>
+<div class="glow glow2"></div>
+
 <!-- NAVBAR -->
 <header>
-    <nav>
-        <div class="logo">Ragul<span>.</span></div>
+    <nav class="navbar">
+
+        <a href="#" class="logo">
+            Ragul<span>.</span>
+        </a>
 
         <div class="nav-links">
             <a href="#home">Home</a>
@@ -24,62 +34,139 @@
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </div>
+
+        <a href="#contact" class="nav-btn">Let's Talk ↗</a>
+
     </nav>
 </header>
 
 
-<!-- HOME -->
+<!-- HERO -->
 <section id="home" class="hero">
 
     <div class="hero-text">
 
-        <p class="small-text">HELLO, I'M</p>
+        <p class="small-title">HELLO, I'M</p>
 
-        <h1>Ragul</h1>
+        <h1>
+            Ragul<span>.</span>
+        </h1>
 
-        <h2>Engineering Student & Web Developer</h2>
+        <h2>
+            Engineering Student
+            <br>
+            <span>& Web Developer</span>
+        </h2>
 
-        <p class="intro">
-            I'm passionate about technology, programming and
-            creating modern websites. Welcome to my personal portfolio.
+        <p class="hero-description">
+            I build modern, creative and responsive websites
+            with clean design and powerful ideas.
         </p>
 
-        <div class="buttons">
-            <a href="#projects" class="btn">View My Work</a>
-            <a href="#contact" class="btn outline">Contact Me</a>
+        <div class="hero-buttons">
+            <a href="#projects" class="primary-btn">
+                View My Work ↗
+            </a>
+
+            <a href="#contact" class="secondary-btn">
+                Contact Me
+            </a>
+        </div>
+
+        <div class="socials">
+            <a href="#">GH</a>
+            <a href="#">IN</a>
+            <a href="#">IG</a>
         </div>
 
     </div>
 
 
-    <div class="hero-photo">
+    <div class="hero-image">
 
-        <div class="glow"></div>
+        <div class="image-border">
 
-        <img src="profile.png" alt="Ragul">
+            <img src="your-photo.jpg" alt="Ragul">
+
+        </div>
+
+        <div class="floating-card">
+            <span>⚡</span>
+            <div>
+                <strong>Creative</strong>
+                <small>Developer</small>
+            </div>
+        </div>
 
     </div>
 
 </section>
 
 
+<!-- STATS -->
+<section class="stats">
+
+    <div>
+        <h3>10+</h3>
+        <p>Projects</p>
+    </div>
+
+    <div>
+        <h3>5+</h3>
+        <p>Technologies</p>
+    </div>
+
+    <div>
+        <h3>100%</h3>
+        <p>Passion</p>
+    </div>
+
+</section>
+
+
 <!-- ABOUT -->
-<section id="about">
+<section id="about" class="section">
 
-    <h2 class="section-title">About Me</h2>
+    <p class="section-tag">01 — ABOUT ME</p>
 
-    <div class="about-card">
+    <h2 class="section-title">
+        Turning ideas into
+        <span>digital experiences.</span>
+    </h2>
 
-        <p>
-            Hi! I'm Ragul, an engineering student interested in
-            web development and programming. I enjoy learning new
-            technologies and creating creative digital projects.
-        </p>
+    <div class="about-grid">
 
-        <p>
-            My goal is to continuously improve my technical skills
-            and build useful and beautiful websites.
-        </p>
+        <div class="about-text">
+
+            <p>
+                I'm Ragul, an engineering student and aspiring
+                web developer who loves technology, programming
+                and creative design.
+            </p>
+
+            <p>
+                I enjoy building websites that are simple,
+                modern, responsive and visually impressive.
+            </p>
+
+            <a href="#contact" class="primary-btn">
+                Let's Build Something ↗
+            </a>
+
+        </div>
+
+        <div class="about-card">
+
+            <span class="card-icon">⌘</span>
+
+            <h3>My Approach</h3>
+
+            <p>
+                Design with purpose. Code with passion.
+                Create with creativity.
+            </p>
+
+        </div>
 
     </div>
 
@@ -87,40 +174,39 @@
 
 
 <!-- SKILLS -->
-<section id="skills">
+<section id="skills" class="section">
 
-    <h2 class="section-title">My Skills</h2>
+    <p class="section-tag">02 — MY SKILLS</p>
 
-    <div class="skills">
+    <h2 class="section-title">
+        Technologies I
+        <span>work with.</span>
+    </h2>
+
+    <div class="skills-grid">
 
         <div class="skill-card">
+            <span>01</span>
             <h3>HTML</h3>
-            <p>Web Structure</p>
+            <p>Structure & Web Development</p>
         </div>
 
         <div class="skill-card">
+            <span>02</span>
             <h3>CSS</h3>
-            <p>Web Design</p>
+            <p>Modern UI & Responsive Design</p>
         </div>
 
         <div class="skill-card">
-            <h3>C</h3>
-            <p>Programming</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>C++</h3>
-            <p>Programming</p>
-        </div>
-
-        <div class="skill-card">
+            <span>03</span>
             <h3>Python</h3>
-            <p>Programming</p>
+            <p>Programming & Problem Solving</p>
         </div>
 
         <div class="skill-card">
-            <h3>GitHub</h3>
-            <p>Version Control</p>
+            <span>04</span>
+            <h3>C / C++</h3>
+            <p>Programming Fundamentals</p>
         </div>
 
     </div>
@@ -129,50 +215,76 @@
 
 
 <!-- PROJECTS -->
-<section id="projects">
+<section id="projects" class="section">
 
-    <h2 class="section-title">My Projects</h2>
+    <p class="section-tag">03 — PROJECTS</p>
 
-    <div class="projects">
+    <h2 class="section-title">
+        Things I've
+        <span>built.</span>
+    </h2>
+
+    <div class="projects-grid">
 
         <div class="project-card">
 
-            <h3>Personal Portfolio</h3>
+            <div class="project-number">01</div>
 
-            <p>
-                A modern responsive portfolio website created
-                using HTML and CSS and hosted using GitHub Pages.
-            </p>
+            <div class="project-content">
+                <p>WEB DEVELOPMENT</p>
+                <h3>Quote Website</h3>
 
-            <a href="#home">View Project →</a>
+                <span>
+                    A modern quote display website
+                    with a clean and attractive interface.
+                </span>
+
+                <a href="#">
+                    View Project ↗
+                </a>
+            </div>
 
         </div>
 
 
         <div class="project-card">
 
-            <h3>Web Design</h3>
+            <div class="project-number">02</div>
 
-            <p>
-                Creative and responsive web page designs created
-                while learning front-end development.
-            </p>
+            <div class="project-content">
+                <p>PORTFOLIO</p>
+                <h3>Personal Website</h3>
 
-            <a href="#home">View Project →</a>
+                <span>
+                    A responsive personal portfolio
+                    designed to showcase my skills.
+                </span>
+
+                <a href="#">
+                    View Project ↗
+                </a>
+            </div>
 
         </div>
 
 
         <div class="project-card">
 
-            <h3>Programming Projects</h3>
+            <div class="project-number">03</div>
 
-            <p>
-                Small programming projects created using C,
-                C++ and Python.
-            </p>
+            <div class="project-content">
+                <p>COMING SOON</p>
+                <h3>Next Project</h3>
 
-            <a href="#home">View Project →</a>
+                <span>
+                    Something new is being created.
+                    Stay tuned.
+                </span>
+
+                <a href="#">
+                    Coming Soon ↗
+                </a>
+            </div>
 
         </div>
 
@@ -182,27 +294,23 @@
 
 
 <!-- CONTACT -->
-<section id="contact">
+<section id="contact" class="contact-section">
 
-    <h2 class="section-title">Contact Me</h2>
+    <p class="section-tag">04 — CONTACT</p>
 
-    <div class="contact-card">
+    <h2>
+        Let's create something
+        <span>awesome.</span>
+    </h2>
 
-        <h3>Let's Connect</h3>
+    <p>
+        Have an idea or want to work together?
+        Drop me a message.
+    </p>
 
-        <p>
-            Interested in working together or just want to say hello?
-        </p>
-
-        <p class="contact-info">
-            📧 ragulrajkumar555@gmail.com
-        </p>
-
-        <p class="contact-info">
-            📱 +91 63830 12791
-        </p>
-
-    </div>
+    <a href="mailto:yourmail@gmail.com" class="contact-btn">
+        Say Hello ↗
+    </a>
 
 </section>
 
@@ -210,10 +318,14 @@
 <!-- FOOTER -->
 <footer>
 
+    <div>
+        <strong>Ragul<span>.</span></strong>
+        <p>Engineering Student & Web Developer</p>
+    </div>
+
     <p>© 2026 Ragul. All Rights Reserved.</p>
 
 </footer>
 
-
 </body>
-</html>
+        </html>
