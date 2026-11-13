@@ -1,62 +1,210 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ragul Nexus | Developer Portfolio</title>
+  <meta name="description" content="Ragul's futuristic developer and gaming portfolio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<!-- SKILLS -->
-<section id="skills" class="section">
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
 
-    <p class="section-tag">02 — MY SKILLS</p>
+  <header class="navbar">
+    <a href="#home" class="logo">RAGUL<span> NEXUS.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#game">Mini Game</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <h2 class="section-title">
-        Technologies I
-        <span>work with.</span>
-    </h2>
-
-    <div class="skills-grid">
-
-        <div class="skill-card">
-            <span>01</span>
-            <h3>HTML</h3>
-            <p>Structure & Web Development</p>
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-text">
+        <p class="eyebrow">WELCOME TO MY DIGITAL WORLD</p>
+        <h1>I'm <span>RAGUL</span></h1>
+        <h2>I am a <span id="typing"></span><span class="cursor">|</span></h2>
+        <p class="hero-description">
+          Creating digital experiences, exploring technology,
+          and turning ideas into reality.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">Explore Projects ↗</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
         </div>
-
-        <div class="skill-card">
-            <span>02</span>
-            <h3>CSS</h3>
-            <p>Modern UI & Responsive Design</p>
+        <div class="social-mini">
+          <span>CREATIVE MIND</span>
+          <span>•</span>
+          <span>FUTURE DEVELOPER</span>
+          <span>•</span>
+          <span>GAMER</span>
         </div>
+      </div>
 
-        <div class="skill-card">
-            <span>03</span>
-            <h3>Python</h3>
-            <p>Programming & Problem Solving</p>
+      <div class="hero-image">
+        <div class="image-ring"></div>
+        <div class="image-frame">
+          <img src="profile.png" alt="Ragul profile photo">
         </div>
+        <div class="floating-tag tag-one">⚡ CREATIVE</div>
+        <div class="floating-tag tag-two">{"< DEVELOPER />"}</div>
+      </div>
+    </section>
 
-        <div class="skill-card">
-            <span>04</span>
-            <h3>C / C++</h3>
-            <p>Programming Fundamentals</p>
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p>GET TO KNOW ME</p>
+        <h2>ABOUT <span>ME</span></h2>
+      </div>
+      <div class="about-card">
+        <div class="about-mark">RN<span>.</span></div>
+        <div>
+          <h3>Hey! I'm Ragul 👋</h3>
+          <p>
+            I'm an aspiring developer who loves technology, creativity,
+            gaming and learning new things. My goal is to build useful
+            digital products and create something unique.
+          </p>
+          <p class="about-highlight">DREAM BIG. BUILD SMART. STAY DIFFERENT.</p>
         </div>
+      </div>
 
-    </div>
+      <div class="journey">
+        <h3>MY JOURNEY</h3>
+        <div class="journey-item">
+          <span class="journey-dot"></span>
+          <div>
+            <h4>Learning & Exploring</h4>
+            <p>Building my foundation in programming and technology.</p>
+          </div>
+        </div>
+        <div class="journey-item">
+          <span class="journey-dot"></span>
+          <div>
+            <h4>Creating Projects</h4>
+            <p>Turning my ideas into websites and interactive experiences.</p>
+          </div>
+        </div>
+        <div class="journey-item">
+          <span class="journey-dot"></span>
+          <div>
+            <h4>Future Goals</h4>
+            <p>Growing as a developer and building my own digital products.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</section>
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p>WHAT I WORK WITH</p>
+        <h2>MY <span>SKILLS</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card"><span>🌐</span><h3>HTML</h3><p>Web Structure</p></div>
+        <div class="skill-card"><span>🎨</span><h3>CSS</h3><p>Web Styling</p></div>
+        <div class="skill-card"><span>⚡</span><h3>JavaScript</h3><p>Web Interactions</p></div>
+        <div class="skill-card"><span>💻</span><h3>Programming</h3><p>Problem Solving</p></div>
+        <div class="skill-card"><span>🎮</span><h3>Gaming</h3><p>Game Enthusiast</p></div>
+        <div class="skill-card"><span>🚀</span><h3>Creativity</h3><p>New Ideas</p></div>
+      </div>
+    </section>
 
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p>THINGS I'VE BUILT</p>
+        <h2>MY <span>PROJECTS</span></h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-number">01 / WEB</div>
+          <div class="project-icon">🌐</div>
+          <h3>Quote Website</h3>
+          <p>A collection of inspiring quotes with a clean web design.</p>
+          <a href="https://ragulnexus.github.io/Ragul-nexus.-io/" target="_blank" rel="noopener">View Website ↗</a>
+        </article>
 
-<!-- PROJECTS -->
-<section id="projects" class="section">
+        <article class="project-card">
+          <div class="project-number">02 / PORTFOLIO</div>
+          <div class="project-icon">🚀</div>
+          <h3>Ragul Nexus</h3>
+          <p>My personal digital space to showcase my skills and ideas.</p>
+          <a href="#home">Explore Portfolio ↗</a>
+        </article>
 
-    <p class="section-tag">03 — PROJECTS</p>
+        <article class="project-card">
+          <div class="project-number">03 / GAME</div>
+          <div class="project-icon">🏎️</div>
+          <h3>Neon Racer</h3>
+          <p>A mini racing game. Dodge traffic and beat your high score.</p>
+          <a href="#game">Play Game ↓</a>
+        </article>
+      </div>
+    </section>
 
-    <h2 class="section-title">
-        Things I've
-        <span>built.</span>
-    </h2>
+    <!-- MINI GAME -->
+    <section class="section" id="game">
+      <div class="section-heading">
+        <p>TAKE A BREAK</p>
+        <h2>NEON <span>RACER</span></h2>
+      </div>
+      <div class="game-card">
+        <div class="game-top">
+          <span>🏁 NEON HIGHWAY</span>
+          <span>SCORE: <b id="score">0</b></span>
+        </div>
+        <canvas id="gameCanvas" width="320" height="480" aria-label="Neon racing game"></canvas>
+        <p id="gameMessage">Press START to begin your race!</p>
+        <button class="btn primary game-start" id="startGame">START RACE</button>
+        <div class="game-controls">
+          <button id="leftBtn" aria-label="Move left">◀</button>
+          <button id="rightBtn" aria-label="Move right">▶</button>
+        </div>
+        <p class="game-hint">Use ← → arrow keys or buttons to dodge the traffic.</p>
+      </div>
+    </section>
 
-    <div class="projects-grid">
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="section-heading">
+        <p>LET'S CONNECT</p>
+        <h2>CONTACT <span>ME</span></h2>
+      </div>
+      <div class="contact-card">
+        <h3>Have an idea? Let's build it!</h3>
+        <p>Feel free to connect with me through my social platforms.</p>
+        <div class="contact-links">
+          <!-- Replace these # links with your real profile URLs -->
+          <a href="https://github.com/ragulnexus" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="#" target="_blank" rel="noopener">Instagram ↗</a>
+          <a href="#" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="mailto:YOUR_EMAIL@gmail.com">Email ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-        <div class="project-card">
+  <footer>
+    <a href="#home" class="logo">RAGUL<span> NEXUS.</span></a>
+    <p>Designed with ⚡ by Ragul | © <span id="year"></span></p>
+  </footer>
 
-            <div class="project-number">01</div>
+  <script src="script.js"></script>
+</body>
+</html>
 
-            <div class="project-content">
-                <p>WEB DEVELOPMENT</p>
-                <h3>Quote 
                 
